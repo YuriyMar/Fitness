@@ -9,8 +9,7 @@ public class Boxing extends Training {
   @Override
   public void getStatus() {
     System.out.println(
-        "Тренировка по кикбоксингу! Длительность: " + this.getTime() + " минут. Килокалорий: "
-                + this.getEnergy()
+        "Тренировка по кикбоксингу! Длительность: " + this.getTime() + " минут. Килокалорий: " + this.getEnergy()
 
     );
   }

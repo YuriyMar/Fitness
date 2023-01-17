@@ -6,12 +6,12 @@ import java.math.RoundingMode;
 public abstract class Training {
 
   public Training(int bitting, int time, double weight) {
-    this.setBitting(bitting);
-    this.setTime(time);
-    this.setWeight(weight);
-    this.energy = new BigDecimal(0.014 * this.weight * this.time * (0.12 * this.bitting - 7))
-        .setScale(2, RoundingMode.HALF_UP)
-        .doubleValue();
+     this.setBitting(bitting);
+     this.setTime(time);
+     this.setWeight(weight);
+     this.energy = new BigDecimal(0.014 * this.weight * this.time * (0.12 * this.bitting - 7))
+         .setScale(2, RoundingMode.HALF_UP)
+         .doubleValue();
   }
 
 
@@ -40,7 +40,7 @@ public abstract class Training {
   }
 
   protected double getEnergy() {
-    return energy;
+     return energy;
   }
 
   public abstract void getStatus();

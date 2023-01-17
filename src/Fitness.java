@@ -16,12 +16,9 @@ public class Fitness {
         new Boxing(140, 100, 87)
     };
 
-
-
     for (Training training : trainings) {
       training.getStatus();
     }
-
 
   }
 }

@@ -11,8 +11,8 @@ public class Jogging extends Training {
   @Override
   public void getStatus() {
     System.out.println(
-        "Беговая тренировка! Длительность: " + this.getTime() + " минут. Дистанция: "
-                +  this.distance +" км. Килокалорий: " + this.getEnergy()
+        "Беговая тренировка! Длительность: " + this.getTime() + " минут. Дистанция: " +
+                this.distance +" км. Килокалорий: " + this.getEnergy()
     );
   }
 }
